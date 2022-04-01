@@ -5,19 +5,17 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.example.flo.databinding.FragmentLockerBinding
+import com.example.flo.databinding.FragmentMusicfileBinding
 
-class LockerFragment : Fragment() {
-
-    lateinit var binding: FragmentLockerBinding
+class MusicFileFragment : Fragment() {
+    lateinit var binding :FragmentMusicfileBinding
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        binding = FragmentLockerBinding.inflate(inflater, container, false)
-
+        binding = FragmentMusicfileBinding.inflate(inflater,container,false)
         return binding.root
     }
 }
