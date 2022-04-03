@@ -5,10 +5,12 @@
       <map>
         <entry key="..\:/Users/hyewo/AndroidStudioProjects/umc_git1/udemy_android_template_bottomnavi/app/src/main/res/drawable/shape_circle_gray.xml" value="0.1" />
         <entry key="..\:/Users/hyewo/AndroidStudioProjects/umc_git1/udemy_android_template_bottomnavi/app/src/main/res/drawable/shape_circle_purple.xml" value="0.2275" />
+        <entry key="..\:/Users/hyewo/AndroidStudioProjects/umc_git1/udemy_android_template_bottomnavi/app/src/main/res/drawable/splash.xml" value="0.1" />
         <entry key="..\:/Users/hyewo/AndroidStudioProjects/umc_git1/udemy_android_template_bottomnavi/app/src/main/res/drawable/textview_background_radius.xml" value="0.1" />
         <entry key="..\:/Users/hyewo/AndroidStudioProjects/umc_git1/udemy_android_template_bottomnavi/app/src/main/res/drawable/textview_background_select_color_radius.xml" value="0.1" />
         <entry key="..\:/Users/hyewo/AndroidStudioProjects/umc_git1/udemy_android_template_bottomnavi/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/hyewo/AndroidStudioProjects/umc_git1/udemy_android_template_bottomnavi/app/src/main/res/layout/activity_song.xml" value="0.2" />
+        <entry key="..\:/Users/hyewo/AndroidStudioProjects/umc_git1/udemy_android_template_bottomnavi/app/src/main/res/layout/activity_splash.xml" value="0.1" />
         <entry key="..\:/Users/hyewo/AndroidStudioProjects/umc_git1/udemy_android_template_bottomnavi/app/src/main/res/layout/fragment_album.xml" value="0.1" />
         <entry key="..\:/Users/hyewo/AndroidStudioProjects/umc_git1/udemy_android_template_bottomnavi/app/src/main/res/layout/fragment_banner.xml" value="0.1" />
         <entry key="..\:/Users/hyewo/AndroidStudioProjects/umc_git1/udemy_android_template_bottomnavi/app/src/main/res/layout/fragment_detail.xml" value="0.1" />
