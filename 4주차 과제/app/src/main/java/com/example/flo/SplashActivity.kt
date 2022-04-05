@@ -20,7 +20,7 @@
 //        var handler = Handler(Looper.getMainLooper())
 //
 //        handler.postDelayed({
-//                            startActivity(Intent(this,MainActivity::class.java))
+//                            startActivity(Intent(this, MainActivity::class.java))
 //        },1000)
 //    }
 //

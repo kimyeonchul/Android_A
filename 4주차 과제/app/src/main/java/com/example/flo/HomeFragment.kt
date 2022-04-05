@@ -1,6 +1,9 @@
 package com.example.flo
 
 import android.os.Bundle
+import android.os.Handler
+import android.os.Looper
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -12,6 +15,11 @@ import com.example.flo.databinding.FragmentHomeBinding
 class HomeFragment : Fragment() {
 
     lateinit var binding: FragmentHomeBinding
+    var currentPosition = 0
+    val handler = Handler(Looper.getMainLooper()){
+        setPage()
+        true
+    }
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -32,7 +40,30 @@ class HomeFragment : Fragment() {
 
         val pannelAdapter = PannelVPAdapter(this)
         binding.homeContentVp.adapter = pannelAdapter
+        val thread = Thread(PagerRunnable())
+        thread.start()
 
         return binding.root
     }
+
+    fun setPage(){
+        if(currentPosition ==5)
+            currentPosition =0
+        binding.homeContentVp.setCurrentItem(currentPosition,true)
+        currentPosition+=1
+    }
+
+    inner class PagerRunnable : Runnable{
+        override fun run() {
+            while(true){
+                try{
+                    Thread.sleep(2000)
+                    handler.sendEmptyMessage(0)
+                }catch (e:InterruptedException){
+                    Log.d("interrupt","interrupt 발생")
+                }
+            }
+        }
+    }
+
 }
